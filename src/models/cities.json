@@ -1,0 +1,26 @@
+[
+  {
+    "country_code": "pl",
+    "name": "Lublin",
+  },
+  {
+    "country_code": "pl",
+    "name": "Kraków",
+  },
+  {
+    "country_code": "uk",
+    "name": "London",
+  },
+  {
+    "country_code": "uk",
+    "name": "Manchester",
+  },
+  {
+    "country_code": "ch",
+    "name": "Zurich",
+  },
+  {
+    "country_code": "ch",
+    "name": "Bern",
+  },
+]
