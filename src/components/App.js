@@ -1,14 +1,17 @@
-import React, { Component } from 'react';
-import '../style/App.css';
+import React from 'react';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+import ShowCountries from './ShowCountries';
+import mainReducer from '../reducers';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        hello
-      </div>
-    );
-  }
+const store = createStore(mainReducer);
+
+const App = () => {
+	return (
+    <Provider store={store}>
+		  <ShowCountries />
+    </Provider>
+	)
 }
 
 export default App;
