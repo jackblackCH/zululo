@@ -5,13 +5,13 @@ import '../style/App.css';
 class ShowCountries extends Component {
     render() {
         return (
-            <div className="App">
+            <div>
                 <ul>
                     {this.props.countries.map(country => {
                         return (
                             <li id="country-main">
                                 <h2>{country.name}</h2>
-                                <img className="fade" id="main-photo" src={country.photo}></img>
+                                <img className="fade" id="main-photo" src={country.photo}/>
                             </li>
                         )
                     })}
