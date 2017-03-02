@@ -4,6 +4,8 @@ import {Provider} from 'react-redux';
 import CountryList from '../list/';
 import Country from '../Country';
 import mainReducer from '../../reducers';
+import './App.css';
+
 import {
     browserHistory,
     Router,
