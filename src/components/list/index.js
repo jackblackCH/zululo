@@ -11,7 +11,7 @@ export class List extends Component {
                         <li className="c-list__item" key={country.shortName}>
                             <div className="c-list__block">
                               <h2 className="c-list__title">{country.name}</h2>
-                              <img className="c-list__image" src={country.photo} />
+                              <img alt="{country.name}" className="c-list__image" src={country.photo} />
                             </div>
                         </li>
                     )
