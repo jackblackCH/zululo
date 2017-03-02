@@ -22,7 +22,7 @@ const App = () => {
         <Provider store={store}>
             <Router history={browserHistory}>
                 <Route path="/" component={({ children }) => <div>{children}</div>}>
-                    <Route path="country/:id" component={Country} />
+                    <Route path="country/:countryName" component={Country} />
                     <IndexRoute component={CountryList} />
                 </Route>
             </Router>
