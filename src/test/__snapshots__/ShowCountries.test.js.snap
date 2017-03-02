@@ -1,44 +1,54 @@
-exports[`<ShowCountries /> should have a className 1`] = `
-<div
-  className="App">
-  <ul>
-    <li
-      id="country-main">
-      <h2>
+exports[`Component: Country list should have a classname 1`] = `
+<ul
+  className="c-list" />
+`;
+
+exports[`Component: Country list should render items 1`] = `
+<ul
+  className="c-list">
+  <li
+    className="c-list__item">
+    <div
+      className="c-list__block">
+      <h2
+        className="c-list__title">
         United Kingdom
       </h2>
       <img
-        className="fade"
-        id="main-photo"
+        className="c-list__image"
         src="/assets/country/city.jpg" />
-    </li>
-    <li
-      id="country-main">
-      <h2>
+    </div>
+  </li>
+  <li
+    className="c-list__item">
+    <div
+      className="c-list__block">
+      <h2
+        className="c-list__title">
         Switzerland
       </h2>
       <img
-        className="fade"
-        id="main-photo"
+        className="c-list__image"
         src="/assets/country/switzerlandAlps.jpg" />
-    </li>
-    <li
-      id="country-main">
-      <h2>
+    </div>
+  </li>
+  <li
+    className="c-list__item">
+    <div
+      className="c-list__block">
+      <h2
+        className="c-list__title">
         Poland
       </h2>
       <img
-        className="fade"
-        id="main-photo"
+        className="c-list__image"
         src="/assets/country/krakow.jpg" />
-    </li>
-  </ul>
-</div>
+    </div>
+  </li>
+</ul>
 `;
 
-exports[`<ShowCountries /> should render ShowCountries 1`] = `
-<div
-  className="App">
-  <ul />
-</div>
+exports[`Component: Country list should render the list 1`] = `
+<ul
+  className="c-list" />
 `;
