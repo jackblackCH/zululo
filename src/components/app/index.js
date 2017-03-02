@@ -1,15 +1,16 @@
 import React from 'react';
 import {createStore} from 'redux';
 import {Provider} from 'react-redux';
-import ShowCountries from './ShowCountries';
-import mainReducer from '../reducers';
+import ListCountries from '../list';
+import mainReducer from '../../reducers';
+import './App.css';
 
 const store = createStore(mainReducer);
 
 const App = () => {
     return (
         <Provider store={store}>
-            <ShowCountries />
+            <ListCountries />
         </Provider>
     )
 };
