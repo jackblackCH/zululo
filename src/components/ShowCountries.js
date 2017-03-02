@@ -1,30 +1,29 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
+import React, {Component} from 'react';
+import {connect} from 'react-redux';
 import '../style/App.css';
-import {countryList} from '../actions/index'
-console.log('app');
-class ShowCountries extends Component {
 
-  render() {
-    return (
-      <div className="App">
-        <ul>
-        {this.props.countries.map(country=> {
-          return (
-              <li>{country.name}</li>
-          )
-        })}
-      </ul>
-      </div>
-    );
-  }
+class ShowCountries extends Component {
+    render() {
+        return (
+            <div className="App">
+                <ul>
+                    {this.props.countries.map(country => {
+                        return (
+                            <li id="country-main"><p>{country.name}</p><img id="main-photo" src={country.photo}></img></li>
+                        )
+                    })}
+                </ul>
+            </div>
+        );
+    }
 }
 
 const mapStateToProps = (state) => {
-  const countries = state.countries
-	return {
-		countries
-	};
+    const countries = state.countries;
+    return {
+        countries
+    };
 };
+
 
 export default connect(mapStateToProps)(ShowCountries)
