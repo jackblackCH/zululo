@@ -14,9 +14,14 @@ exports[`Component: Country list should render items 1`] = `
         className="c-list__title">
         United Kingdom
       </h2>
-      <img
-        className="c-list__image"
-        src="/assets/country/city.jpg" />
+      <a
+        onClick={[Function]}
+        style={Object {}}>
+        <img
+          alt="{country.name}"
+          className="c-list__image"
+          src="/assets/country/city.jpg" />
+      </a>
     </div>
   </li>
   <li
@@ -27,9 +32,14 @@ exports[`Component: Country list should render items 1`] = `
         className="c-list__title">
         Switzerland
       </h2>
-      <img
-        className="c-list__image"
-        src="/assets/country/switzerlandAlps.jpg" />
+      <a
+        onClick={[Function]}
+        style={Object {}}>
+        <img
+          alt="{country.name}"
+          className="c-list__image"
+          src="/assets/country/switzerlandAlps.jpg" />
+      </a>
     </div>
   </li>
   <li
@@ -40,9 +50,14 @@ exports[`Component: Country list should render items 1`] = `
         className="c-list__title">
         Poland
       </h2>
-      <img
-        className="c-list__image"
-        src="/assets/country/krakow.jpg" />
+      <a
+        onClick={[Function]}
+        style={Object {}}>
+        <img
+          alt="{country.name}"
+          className="c-list__image"
+          src="/assets/country/krakow.jpg" />
+      </a>
     </div>
   </li>
 </ul>
