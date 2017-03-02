@@ -1,9 +1,9 @@
 import React from 'react';
 import {createStore} from 'redux';
 import {Provider} from 'react-redux';
-import ShowCountries from './ShowCountries';
-import Country from './Country';
-import mainReducer from '../reducers';
+import CountryList from '../list/';
+import Country from '../Country';
+import mainReducer from '../../reducers';
 import {
     browserHistory,
     Router,
@@ -19,7 +19,7 @@ const App = () => {
             <Router history={browserHistory}>
                 <Route path="/" component={({ children }) => <div>{children}</div>}>
                     <Route path="country/:id" component={Country} />
-                    <IndexRoute component={ShowCountries} />
+                    <IndexRoute component={CountryList} />
                 </Route>
             </Router>
         </Provider>
