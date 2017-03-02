@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import '../style/App.css';
 import {countryList} from '../actions/index'
-console.log('app');
+
 class ShowCountries extends Component {
 
   render() {

@@ -21,10 +21,7 @@ const INIT_STATE = {
 }
 const reducer = (state = INIT_STATE, action) => {
 	switch (action.type) {
-		case 'COUNTRY_LIST':
-			return {
-        ...state
-      }
+		
 		default:
 			return state;
 	}
