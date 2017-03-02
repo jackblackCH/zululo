@@ -5,6 +5,7 @@ import CountryList from '../list/';
 import Country from '../Country';
 import mainReducer from '../../reducers';
 import './App.css';
+import Footer from '../footer'
 
 import {
     browserHistory,
@@ -17,6 +18,7 @@ const store = createStore(mainReducer);
 
 const App = () => {
     return (
+      <div>
         <Provider store={store}>
             <Router history={browserHistory}>
                 <Route path="/" component={({ children }) => <div>{children}</div>}>
@@ -25,6 +27,8 @@ const App = () => {
                 </Route>
             </Router>
         </Provider>
+        <Footer />
+      </div>
     )
 };
 

@@ -1,0 +1,32 @@
+exports[`Component: Footer should have a className 1`] = `
+<footer
+  className="c-footer">
+  <a
+    className="c-footer__link"
+    href="//github.com/jackblackCH/zululo">
+     Copyright  zululo 2017
+  </a>
+</footer>
+`;
+
+exports[`Component: Footer should have a link 1`] = `
+<footer
+  className="c-footer">
+  <a
+    className="c-footer__link"
+    href="//github.com/jackblackCH/zululo">
+     Copyright  zululo 2017
+  </a>
+</footer>
+`;
+
+exports[`Component: Footer should render the Footer 1`] = `
+<footer
+  className="c-footer">
+  <a
+    className="c-footer__link"
+    href="//github.com/jackblackCH/zululo">
+     Copyright  zululo 2017
+  </a>
+</footer>
+`;
