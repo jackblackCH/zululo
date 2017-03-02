@@ -12,6 +12,6 @@ const App = () => {
             <ShowCountries />
         </Provider>
     )
-}
+};
 
 export default App;
