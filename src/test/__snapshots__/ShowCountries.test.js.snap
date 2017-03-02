@@ -1,0 +1,44 @@
+exports[`<ShowCountries /> should have a className 1`] = `
+<div
+  className="App">
+  <ul>
+    <li
+      id="country-main">
+      <h2>
+        United Kingdom
+      </h2>
+      <img
+        className="fade"
+        id="main-photo"
+        src="/assets/country/city.jpg" />
+    </li>
+    <li
+      id="country-main">
+      <h2>
+        Switzerland
+      </h2>
+      <img
+        className="fade"
+        id="main-photo"
+        src="/assets/country/switzerlandAlps.jpg" />
+    </li>
+    <li
+      id="country-main">
+      <h2>
+        Poland
+      </h2>
+      <img
+        className="fade"
+        id="main-photo"
+        src="/assets/country/krakow.jpg" />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<ShowCountries /> should render ShowCountries 1`] = `
+<div
+  className="App">
+  <ul />
+</div>
+`;
