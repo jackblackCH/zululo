@@ -15,7 +15,7 @@ const INIT_STATE = {
         {
             name: 'Poland',
             shortName: 'pl',
-            photo: '/assets/country/wawel-castle.jpg'
+            photo: '/assets/country/krakow.jpg'
         },
     ]
 };
