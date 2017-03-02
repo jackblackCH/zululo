@@ -9,7 +9,8 @@ class ShowCountries extends Component {
                 <ul>
                     {this.props.countries.map(country => {
                         return (
-                            <li id="country-main"><p>{country.name}</p><img id="main-photo" src={country.photo}></img></li>
+                            <li id="country-main"><p>{country.name}</p><img id="main-photo" src={country.photo}></img>
+                            </li>
                         )
                     })}
                 </ul>

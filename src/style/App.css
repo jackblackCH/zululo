@@ -1,48 +1,48 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
 }
 
 .App-intro {
-  font-size: large;
+    font-size: large;
 }
 
 body {
-  background: #e6e6e6;
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    background: #e6e6e6;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 #main-photo {
-  border: 1px solid black;
-  display: block;
-  margin: auto;
-  border-radius: 8px;
-  padding: 10px;
-  width: 30%;
-  height: 200px;
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    padding: 10px;
+    width: 30%;
+    height: 200px;
 }
 
 #main-photo:hover {
-  box-shadow: 0 0 5px 5px rgba(0, 140, 186, 0.5);
+    box-shadow: 0 0 5px 5px rgba(0, 140, 186, 0.5);
 }
 
 #country-main {
-  margin: 25px;
+    margin: 25px;
 }
