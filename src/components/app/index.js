@@ -6,6 +6,7 @@ import './App.css';
 import templateHome from '../../templates/home.js';
 import templateCountry from '../../templates/country.js';
 import cityTemplate from '../../templates/city.js';
+import AttractionsTemplate from '../../templates/attractions.js';
 import Header from '../header'
 import Footer from '../footer'
 import {
@@ -25,7 +26,7 @@ const App = () => {
                 <Route path="/" component={templateHome} />
                 <Route path="/:country" component={templateCountry} />
                 <Route path="/:country/:city" component={cityTemplate} />
-                <Route path="/:country/:city/:attraction" component={cityTemplate} />
+                <Route path="/:country/:city/:attraction" component={AttractionsTemplate} />
             </Router>
         </Provider>
         <Footer />

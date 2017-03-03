@@ -4,12 +4,7 @@ import {connect} from 'react-redux';
 
 const countryTemplate = (props) => {
   const currentCountry = props.countries.find(country => country.name === props.params.country);
-  const items = props.items.filter(item => {
-    if(item.country_code === currentCountry.country_code) {
-      return true
-    }
-    return false
-  })
+  const items = props.items.filter(item => item.country_code === currentCountry.country_code)
 
   return (
     <div className="c-country">
