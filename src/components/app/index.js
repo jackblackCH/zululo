@@ -5,7 +5,8 @@ import mainReducer from '../../reducers';
 import './App.css';
 import templateHome from '../../templates/home.js';
 import templateCountry from '../../templates/country.js';
-
+import Header from '../header'
+import Footer from '../footer'
 import {
     browserHistory,
     Router,
@@ -17,6 +18,8 @@ const store = createStore(mainReducer);
 
 const App = () => {
     return (
+      <div>
+        <Header />
         <Provider store={store}>
             <Router history={browserHistory}>
                 <Route path="/">
@@ -25,6 +28,8 @@ const App = () => {
                 </Route>
             </Router>
         </Provider>
+        <Footer />
+      </div>
     )
 };
 
