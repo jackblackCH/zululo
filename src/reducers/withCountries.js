@@ -2,8 +2,8 @@ import countries from '../models/countries';
 
 const filteredCountries = countries.map( country => {
   return {
+    ...country,
     id: country.name,
-    name: country.name,
     image: country.photo
   }
 })

@@ -2,8 +2,8 @@ import cities from '../models/cities';
 
 const filteredCities = cities.map( city => {
   return {
-    id: city.name,
-    name: city.name
+    ...city,
+    id: city.name
   }
 })
 

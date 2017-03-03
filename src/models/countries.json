@@ -1,17 +1,17 @@
 [
     {
         "name": "United Kingdom",
-        "shortName": "uk",
+        "country_code": "uk",
         "photo": "/assets/country/city.jpg"
     },
     {
         "name": "Switzerland",
-        "shortName": "ch",
+        "country_code": "ch",
         "photo": "/assets/country/switzerlandAlps.jpg"
     },
     {
         "name": "Poland",
-        "shortName": "pl",
+        "country_code": "pl",
         "photo": "/assets/country/krakow.jpg"
     }
 ]
