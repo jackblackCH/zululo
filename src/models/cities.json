@@ -1,26 +1,26 @@
 [
   {
     "country_code": "pl",
-    "name": "Lublin",
+    "name": "Lublin"
   },
   {
     "country_code": "pl",
-    "name": "Kraków",
+    "name": "Kraków"
   },
   {
     "country_code": "uk",
-    "name": "London",
+    "name": "London"
   },
   {
     "country_code": "uk",
-    "name": "Manchester",
+    "name": "Manchester"
   },
   {
     "country_code": "ch",
-    "name": "Zurich",
+    "name": "Zurich"
   },
   {
     "country_code": "ch",
-    "name": "Bern",
-  },
+    "name": "Bern"
+  }
 ]

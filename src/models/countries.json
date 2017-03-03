@@ -1,11 +1,17 @@
 [
-  {
-    "name": "Poland",
-  },
-  {
-    "name": "United Kingdom",
-  },
-  {
-    "name": "Switzerland",
-  },
+    {
+        "name": "United Kingdom",
+        "shortName": "uk",
+        "photo": "/assets/country/city.jpg"
+    },
+    {
+        "name": "Switzerland",
+        "shortName": "ch",
+        "photo": "/assets/country/switzerlandAlps.jpg"
+    },
+    {
+        "name": "Poland",
+        "shortName": "pl",
+        "photo": "/assets/country/krakow.jpg"
+    }
 ]
