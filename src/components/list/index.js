@@ -7,10 +7,10 @@ const List = (props) =>
         {props.items.map(item => {
             return (
                 <li className="c-list__item" key={item.id}>
-                    <Link to={item.name}>
+                    <Link to={`${props.prefix ? `${props.prefix}/` : ''}${item.name}`}>
                     <div className="c-list__block">
                         <h2 className="c-list__title">{item.name}</h2>
-                            <img alt="{country.name}" className="c-list__image" src={item.image} />
+                            <img alt={item.name} className="c-list__image" src={item.image} />
                     </div>
                     </Link>
                 </li>

@@ -5,13 +5,13 @@ import mainReducer from '../../reducers';
 import './App.css';
 import templateHome from '../../templates/home.js';
 import templateCountry from '../../templates/country.js';
+import cityTemplate from '../../templates/city.js';
 import Header from '../header'
 import Footer from '../footer'
 import {
     browserHistory,
     Router,
     Route,
-    IndexRoute,
 } from "react-router";
 
 const store = createStore(mainReducer);
@@ -22,10 +22,10 @@ const App = () => {
         <Header />
         <Provider store={store}>
             <Router history={browserHistory}>
-                <Route path="/">
-                    <Route path=":country" component={templateCountry} />
-                    <IndexRoute component={templateHome} />
-                </Route>
+                <Route path="/" component={templateHome} />
+                <Route path="/:country" component={templateCountry} />
+                <Route path="/:country/:city" component={cityTemplate} />
+                <Route path="/:country/:city/:attraction" component={cityTemplate} />
             </Router>
         </Provider>
         <Footer />

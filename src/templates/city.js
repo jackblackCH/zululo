@@ -1,9 +1,10 @@
 import React from 'react';
 import List from '../components/list';
+import {connect} from 'react-redux';
 
 const cityTemlate = (props) => (
   <div className="c-city">
-    <h1 className="c-city__title">Welcome to {props.title}</h1>
+    <h1 className="c-city__title">Welcome to {props.params.city}</h1>
     <h2 className="c-city__subline">The Top Attractions are:</h2>
     <List items={props.items}></List>
   </div>
