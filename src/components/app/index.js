@@ -6,7 +6,7 @@ import Country from '../Country';
 import mainReducer from '../../reducers';
 import './App.css';
 import Footer from '../footer'
-
+import Header from '../header'
 import {
     browserHistory,
     Router,
@@ -19,6 +19,7 @@ const store = createStore(mainReducer);
 const App = () => {
     return (
       <div>
+        <Header />
         <Provider store={store}>
             <Router history={browserHistory}>
                 <Route path="/" component={({ children }) => <div>{children}</div>}>

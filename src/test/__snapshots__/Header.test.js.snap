@@ -1,0 +1,19 @@
+exports[`Component: Header should have a className 1`] = `
+<header
+  className="c-header">
+  <img
+    className="c-header__logo"
+    src="/assets/logo.png" />
+  Zululo
+</header>
+`;
+
+exports[`Component: Header should render the Header 1`] = `
+<header
+  className="c-header">
+  <img
+    className="c-header__logo"
+    src="/assets/logo.png" />
+  Zululo
+</header>
+`;
