@@ -12,10 +12,10 @@ const AttractionsTemplate = (props) => {
 }
 
 const mapStateToProps = state => {
-  return {
-    title: 'Attractions',
-    items: state.attractions.items,
-  }
+    return {
+        title: 'Attractions',
+        items: state.attractions.items,
+    }
 }
 
 export default connect(mapStateToProps)(AttractionsTemplate);

@@ -19,18 +19,18 @@ const store = createStore(mainReducer);
 
 const App = () => {
     return (
-      <div>
-        <Header />
-        <Provider store={store}>
-            <Router history={browserHistory}>
-                <Route path="/" component={templateHome} />
-                <Route path="/:country" component={templateCountry} />
-                <Route path="/:country/:city" component={cityTemplate} />
-                <Route path="/:country/:city/:attraction" component={AttractionsTemplate} />
-            </Router>
-        </Provider>
-        <Footer />
-      </div>
+        <div>
+            <Header />
+            <Provider store={store}>
+                <Router history={browserHistory}>
+                    <Route path="/" component={templateHome}/>
+                    <Route path="/:country" component={templateCountry}/>
+                    <Route path="/:country/:city" component={cityTemplate}/>
+                    <Route path="/:country/:city/:attraction" component={AttractionsTemplate}/>
+                </Router>
+            </Provider>
+            <Footer />
+        </div>
     )
 };
 

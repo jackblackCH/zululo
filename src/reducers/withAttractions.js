@@ -5,19 +5,17 @@ const filteredAttractions = attractions.map( attraction => {
     ...attraction,
     id: attraction.name,
     image: attraction.photo
-  }
-})
+  }})
 
 const INIT_STATE = {
     items: filteredAttractions
 };
 
 const reducer = (state = INIT_STATE, action) => {
-	switch (action.type) {
-		default:
-			return state;
-	}
+    switch (action.type) {
+        default:
+            return state;
+    }
 }
-
 
 export default reducer;
