@@ -7,11 +7,13 @@
   {
     "name": "Segway Tour through Zurich",
     "country_code": "ch",
-    "city": "Zurich"
+    "city": "Zurich",
+    "photo": "/assets/attractions/zurich-segway.jpg"
   },
   {
     "name": "Bus ride through London",
     "country_code": "uk",
-    "city": "London"
+    "city": "London",
+    "photo": "/assets/attractions/london-busride.jpg"
   }
 ]

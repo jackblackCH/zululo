@@ -3,7 +3,8 @@ import attractions from '../models/attractions';
 const filteredAttractions = attractions.map( attraction => {
   return {
     ...attraction,
-    id: attraction.name
+    id: attraction.name,
+    image: attraction.photo
   }
 })
 
