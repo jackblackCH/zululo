@@ -1,26 +1,32 @@
 [
   {
     "country_code": "pl",
-    "name": "Lublin"
+    "name": "Lublin",
+    "photo": "/assets/city/lublin.jpg"
   },
   {
     "country_code": "pl",
-    "name": "Kraków"
+    "name": "Kraków",
+    "photo": "/assets/city/krakow.jpg"
   },
   {
     "country_code": "uk",
-    "name": "London"
+    "name": "London",
+    "photo": "/assets/city/london.jpg"
   },
   {
     "country_code": "uk",
-    "name": "Manchester"
+    "name": "Manchester",
+    "photo": "/assets/city/manchester.jpg"
   },
   {
     "country_code": "ch",
-    "name": "Zurich"
+    "name": "Zurich",
+    "photo": "/assets/city/zurich.jpg"
   },
   {
     "country_code": "ch",
-    "name": "Bern"
+    "name": "Bern",
+    "photo": "/assets/city/bern.jpg"
   }
 ]
