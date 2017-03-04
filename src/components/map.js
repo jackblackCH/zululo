@@ -2,7 +2,7 @@ import React from 'react'
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet'
 
 export default class MapContainer extends React.Component {
-    /// LONDON
+    /// STATE PRESENT LOCATION OF THE CITY (LONDON IN THIS EXAMPLE)
     constructor() {
         super();
         this.state = {
