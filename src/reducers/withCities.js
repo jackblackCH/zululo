@@ -1,10 +1,10 @@
 import cities from '../models/cities';
 
-const filteredCities = cities.map( city => {
-  return {
-    ...city,
-    id: city.name
-  }
+const filteredCities = cities.map(city => {
+    return {
+        ...city,
+        id: city.name
+    }
 })
 
 const INIT_STATE = {
@@ -12,10 +12,10 @@ const INIT_STATE = {
 };
 
 const reducer = (state = INIT_STATE, action) => {
-	switch (action.type) {
-		default:
-			return state;
-	}
+    switch (action.type) {
+        default:
+            return state;
+    }
 }
 
 
