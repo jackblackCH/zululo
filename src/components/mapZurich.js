@@ -1,13 +1,13 @@
 import React from 'react'
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet'
 
-export default class MapContainerLondon extends React.Component {
-    /// STATE PRESENT LOCATION OF THE CITY (LONDON IN THIS EXAMPLE)
+export default class MapContainerZurich extends React.Component {
+    /// STATE PRESENT LOCATION OF THE CITY (ZURICH IN THIS EXAMPLE)
     constructor() {
         super();
         this.state = {
-            lat: 51.505,
-            lng: -0.09,
+            lat: 47.373,
+            lng: 8.545,
             zoom: 13,
         };
     }
@@ -22,7 +22,7 @@ export default class MapContainerLondon extends React.Component {
                 />
                 <Marker position={position}>
                     <Popup>
-                        <span>London</span>
+                        <span>Zurich</span>
                     </Popup>
                 </Marker>
             </Map>
@@ -31,4 +31,4 @@ export default class MapContainerLondon extends React.Component {
 }
 
 
-///RENDER MAP OF LONDON USING <MapContainerLondon /> AND IMPORT COMPONENT
+///RENDER MAP OF ZURICH USING <MapContainerZurich /> AND IMPORT COMPONENT

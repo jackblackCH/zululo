@@ -22,7 +22,7 @@ export default class MapContainerLublin extends React.Component {
                 />
                 <Marker position={position}>
                     <Popup>
-                        <span>A pretty CSS3 popup. <br/> Easily customizable.</span>
+                        <span>Lublin</span>
                     </Popup>
                 </Marker>
             </Map>
