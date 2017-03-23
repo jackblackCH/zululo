@@ -5,7 +5,6 @@ import { bindActionCreators } from "redux";
 //import flags from 'svg-country-flags'
 
 import { loadCities, itemsFetchData } from "../actions";
-//console.log(flags);
 
 const ROOT_URL = "https://restcountries.eu/rest/v2/all";
 
