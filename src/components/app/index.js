@@ -1,21 +1,29 @@
 import React from 'react';
-import {createStore} from 'redux';
-import {Provider} from 'react-redux';
-import mainReducer from '../../reducers';
+import { createStore, applyMiddleware } from "redux";
+import { Provider } from "react-redux";
+import thunk from 'redux-thunk';
+import mainReducer from "../../reducers";
+
 import './App.css';
 import templateHome from '../../templates/home.js';
 import templateCountry from '../../templates/country.js';
 import cityTemplate from '../../templates/city.js';
 import AttractionsTemplate from '../../templates/attractions.js';
-import Header from '../header'
-import Footer from '../footer'
+import Header from '../header';
+import Footer from '../footer';
 import {
     browserHistory,
     Router,
     Route,
 } from "react-router";
-
-const store = createStore(mainReducer);
+// initialState is very needed
+const initialState = {};
+const store = createStore(
+  mainReducer,
+  initialState,
+  applyMiddleware(thunk),
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
 
 const App = () => {
     return (

@@ -2,6 +2,7 @@ import React from 'react';
 import List from '../components/list';
 import {connect} from 'react-redux';
 
+
 const countryTemplate = (props) => {
     const currentCountry = props.countries.find(country => country.name === props.params.country);
     const items = props.items.filter(item => item.country_code === currentCountry.country_code)
